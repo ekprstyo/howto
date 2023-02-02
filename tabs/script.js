@@ -1,10 +1,9 @@
 const london = document.getElementById("London");
 london.style.display = "block";
 const btLondon = document.getElementsByTagName("button");
-btLondon[0].style.backgroundColor = "#ddd";
+btLondon[0].classList.add("active");
 
 function openCity(evt, cityName) {
-  btLondon[0].style.backgroundColor = "inherit";
   var i, tabcontent, tablinks;
   tabcontent = document.getElementsByClassName("tabcontent");
   for (i = 0; i < tabcontent.length; i++) {
