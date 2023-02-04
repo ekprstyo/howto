@@ -1,0 +1,35 @@
+.container {
+  display: flex;
+}
+.left {
+  background-color: #bbbbbb;
+  flex: 35%;
+}
+
+.right {
+  background-color: #dddddd;
+  flex: 65%;
+}
+
+.left h3,
+ul,
+.right {
+  padding-left: 10px;
+}
+
+.left input {
+  font-size: 18px;
+  display: block;
+  width: 100%;
+  padding: 5px 10px;
+}
+
+.left li {
+  list-style: none;
+  padding: 5px 0;
+}
+
+.left a {
+  text-decoration: none;
+  color: black;
+}
