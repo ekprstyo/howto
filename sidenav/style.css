@@ -1,0 +1,40 @@
+.sidenav {
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 0px;
+  overflow-x: hidden;
+  z-index: 1;
+  background-color: #111111;
+  transition: 0.5s;
+}
+
+.sidenav a {
+  color: #818181;
+  text-decoration: none;
+  font-size: 25px;
+  display: block;
+  padding: 10px 80px 5px 30px;
+  transition: 0.5s;
+}
+
+#closebtn {
+  padding: 10px 0 30px 80%;
+}
+
+.sidenav a:hover {
+  color: white;
+}
+
+.content h3 {
+  font-size: 25px;
+}
+
+.content p {
+  font-size: 19px;
+}
+
+#openbtn {
+  cursor: pointer;
+}
