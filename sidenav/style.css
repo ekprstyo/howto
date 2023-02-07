@@ -38,3 +38,7 @@
 #openbtn {
   cursor: pointer;
 }
+
+.content {
+  transition: 0.9s;
+}

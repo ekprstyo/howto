@@ -1,4 +1,5 @@
 const sidenav = document.querySelector(".sidenav");
+const content = document.querySelector(".content");
 // const sideProp = window.getComputedStyle(sidenav, null);
 // const sidePropWidth = sideProp.getPropertyValue("width");
 const openbtn = document.getElementById("openbtn");
@@ -8,10 +9,12 @@ closebtn.addEventListener("click", sidenavClose);
 
 function sidenavOpen() {
   sidenav.style.width = "230px";
+  content.style.marginLeft = "230px";
 }
 
 function sidenavClose() {
   sidenav.style.width = "0px";
+  content.style.marginLeft = "0px";
 }
 
 // function side() {
