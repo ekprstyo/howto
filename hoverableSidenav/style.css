@@ -1,0 +1,38 @@
+.sidenav a {
+  text-decoration: none;
+  color: white;
+  width: 110px;
+  transition: 0.3s;
+  left: -110px;
+  padding: 15px;
+  position: absolute;
+  border-radius: 10px;
+  font-size: 20px;
+  font-weight: 600;
+  text-align: center;
+}
+
+.sidenav a:hover {
+  left: 2px;
+}
+
+.sidenav .about {
+  background-color: red;
+  top: 20px;
+}
+.sidenav .blog {
+  background-color: blue;
+  top: 80px;
+}
+.sidenav .project {
+  background-color: #555;
+  top: 140px;
+}
+.sidenav .contact {
+  background-color: green;
+  top: 200px;
+}
+
+.content {
+  margin-left: 90px;
+}
