@@ -10,11 +10,13 @@ closebtn.addEventListener("click", sidenavClose);
 function sidenavOpen() {
   sidenav.style.width = "230px";
   content.style.marginLeft = "230px";
+  document.body.style.backgroundColor = "rgba(0,0,0,0.4)";
 }
 
 function sidenavClose() {
   sidenav.style.width = "0px";
   content.style.marginLeft = "0px";
+  document.body.style.backgroundColor = "white";
 }
 
 // function side() {
